@@ -1,12 +1,12 @@
-# ciscotest
+# how to Use
 #command to build the docker image
-Ajays-MacBook:ciscotest Ajay_Kommaraju$ docker build -t python-app .
+step 1: docker build -t python-app .
 
 #command to spin the container with the image
-Ajays-MacBook:ciscotest Ajay_Kommaraju$ docker container run -dit --name python-app python-app:latest
+docker container run -dit --name python-app python-app:latest
 
 #command to connect to running container
-Ajays-MacBook:ciscotest Ajay_Kommaraju$ docker exec -it python-app /bin/bash
+ docker exec -it python-app /bin/bash
 
 root@c30f7265d866:/# ls
 
